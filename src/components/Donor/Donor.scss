@@ -1,0 +1,41 @@
+@import '../../Style/mixin';
+
+.donor{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 20%;
+    background-color: rgb(211,211,211);
+    margin: 25px 0.6%;
+    transition: 0.4s;
+    &:hover{
+        height: 202px;
+        width: 302px;
+        transform: scale(1.02);
+        transition: 0.4s;
+        box-shadow: 1px 1px 4px 4px #4f8db6;
+        background-color: rgb(201, 201, 201);
+    }
+
+    img{
+        height: 100px;
+        width: 150px;
+        
+        :hover{
+            filter: invert(0.5) sepia(1);
+        }
+    }
+
+    @include media(mobile-large){
+        width: 410px;
+        height: 410px;
+        margin: 5px auto;
+    }
+    @include media (mobile){
+        width: 350px;
+        height: 350px;
+        margin: 3px auto;
+    }
+}

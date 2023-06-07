@@ -1,0 +1,17 @@
+@import '../../Style/mixin';
+
+.donors{
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+        @include media(mobile-large){
+            flex-direction: column;
+            height: 1000px;
+        }
+        @include media (mobile) {
+            flex-direction: column;
+            height: 1000px;
+        }
+}

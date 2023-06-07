@@ -1,0 +1,34 @@
+@import '../../Style/mixin';
+
+.ngo1{
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    
+    
+}
+.ngo{
+    
+    margin-left: 28%;
+    display: grid;
+    grid-template-columns: 345px 345px;
+    grid-template-rows: 220px;
+    grid-column-gap: 10px;
+    grid-area: center;
+
+    @include media(tablet){
+        margin-left: 10%;
+    }
+    @include media (mobile){
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+}
+.ngo_layout{
+//    background-image: url('../../components/Img/cool-background.png');
+background-color: #EEEEEE;
+    width: 100%;
+}

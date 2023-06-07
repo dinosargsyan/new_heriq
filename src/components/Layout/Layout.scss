@@ -1,0 +1,9 @@
+@import '../../Style/mixin';
+
+.Layout_div {
+   
+  @include media(mobile){
+    width: 100%;
+  }
+}
+

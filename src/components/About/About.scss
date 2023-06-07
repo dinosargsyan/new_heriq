@@ -1,0 +1,15 @@
+@import "../../Style/_mixin.scss";
+
+.about{
+    width: 500px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 40px;
+    @include media(mobile){
+        margin: 0 auto;
+        width: 90%;
+      }
+}
+.title{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,104 @@
+@import '../../Style/mixin';
+
+.app-post__post-details{
+
+
+    &_about{
+        width: 500px;
+        margin: 0 auto;
+        font-family: Nicolo;
+        text-align: justify;
+         text-justify: inter-word;
+        &_icons{
+            margin-top: 50px;
+        }
+        &_hr{
+            margin-top: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            hr{
+                height:1.1px;border-width:0;color:gray;background-color:gray
+            }
+    }
+    }
+    @include media(mobile){
+        margin: 0 auto;
+        &_about{
+            width: 350px;
+        }
+    }
+}
+
+
+.address {
+  display: flex;
+  margin-left: 35px;
+  margin-bottom: 5px;
+}
+.phone{
+    display: flex;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+.email{
+    display: flex;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+
+
+.facebook{
+    display: flex;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+.depo{
+    font-size: 10px;
+}
+
+.loader {
+   
+    margin: 0 auto;
+  }
+  
+  .outer,
+  .middle,
+  .inner {
+    border: 3px solid transparent;
+    border-top-color: #3cefff;
+    border-right-color: #3cefff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .outer {
+    width: 3.5em;
+    height: 3.5em;
+    margin-left: -1.75em;
+    margin-top: -1.75em;
+    animation: spin 2s linear infinite;
+  }
+  
+  .middle {
+    width: 2.1em;
+    height: 2.1em;
+    margin-left: -1.05em;
+    margin-top: -1.05em;
+    animation: spin 1.75s linear reverse infinite;
+  }
+  
+  .inner {
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: -0.4em;
+    margin-top: -0.4em;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }

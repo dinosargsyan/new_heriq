@@ -1,0 +1,15 @@
+@import '../../Style/mixin';
+ .carousel_item{
+    background-color: black;
+    width: 100%;
+    height: 553px;
+    @include media(mobile){
+      height: 200px;
+    }
+ }
+ h3{
+   color: black
+ }
+ p{
+   color: black;
+ }

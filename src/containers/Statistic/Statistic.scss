@@ -1,0 +1,22 @@
+@import "../../Style/mixin";
+
+.Statistic{
+width: 1000px;
+margin: 0 auto;
+display: fixed;
+margin-top: 40px;
+
+@include media (tablet){
+    width: 700px;
+  
+}
+@include media (mobile){
+    width: 300px;
+}
+@include media(mobile-large){
+    width: 450px;
+}
+}
+.select{
+    margin-left: 50px;
+}

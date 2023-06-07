@@ -1,0 +1,28 @@
+body{
+    
+    
+}
+.contact_page{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    // background-image: url("../../components/Img/background.jpg");
+    background-size: 100%;
+    //background-color: #f8f8f7;
+  
+}
+.contact-us{
+    background-color: #f8f8f7;
+    border-radius: 5px;
+    margin: 80px auto;
+    width: 400px;
+    opacity: 0.95;
+    span{
+        font-size: 45px;
+        font-weight: 200;
+    }
+}
+.textfield{
+ 
+    padding: 10px;
+}

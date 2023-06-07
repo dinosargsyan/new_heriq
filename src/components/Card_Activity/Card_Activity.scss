@@ -1,0 +1,27 @@
+@import '../../Style/mixin';
+
+.card_activity{
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    margin: 5px;
+
+    &_title{
+        font-size: 20px;
+        font-weight: 1000;
+    }
+
+    @include media (mobile){
+        margin:  auto;
+        margin-top: 5px;
+    }
+    @include media (tablet){
+        margin: auto;
+    }
+    .team_building_button{
+        
+        bottom: 0;
+    }
+}

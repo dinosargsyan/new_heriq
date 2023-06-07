@@ -1,14 +1,36 @@
 {
   "name": "heriq-am",
+  "homepage": "https://heriq.am/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/style": "^0.8.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.3.1",
+    "@mui/material": "^5.2.7",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@trendyol-js/react-carousel": "^3.0.0",
+    "bootstrap": "^5.1.0",
+    "country-flag-icons": "^1.5.5",
+    "d3-fetch": "^3.0.1",
+    "d3-scale": "^4.0.2",
+    "firebase": "^9.6.4",
+    "i18next": "^21.8.11",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-http-backend": "^1.4.1",
+    "node-sass": "^6.0.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0-beta.0",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-focus-lock": "^2.6.0",
+    "react-i18next": "^11.17.3",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^4.0.3",
+    "react-simple-maps": "^2.3.0",
+    "react-world-flags": "^1.5.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -34,5 +56,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gulp-sass": "^5.1.0"
   }
 }
